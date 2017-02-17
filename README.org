@@ -1,0 +1,30 @@
+* logic-talk
+
+This is a demonstration project that will be used to illustrate a few
+introductory formal logic concepts in Clojure.  It consists of a
+presentation and some code, both in Prolog and in Clojure.  In the latter,
+core.logic is used.
+
+These concepts will be presented at the National Capital Area Clojure Users
+Group on 2017-04-12 (maybe).  See the [[https://www.meetup.com/Cap-Clug/events/vvnjlmywgbqb/][event page]] for details.
+
+* Usage
+
+The Prolog code is contained in a single file, logic.pro, located in the root
+project directory.
+
+The Clojure part of this application is only intended to be used from the REPL.
+To run the application and connect to the REPL:
+
+#+BEGIN_SRC sh
+lein repl :headless
+#+END_SRC
+
+There is also an presentation in org-mode (to be used with org-present) in the
+doc/ directory.
+
+* License
+
+Copyright © 2017
+
+Distributed under the GNU Public License version 3.0.

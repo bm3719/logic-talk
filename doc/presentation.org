@@ -1,0 +1,9 @@
+* Logic Programming
+
+Logic Programming:
+- Introduction, motivations, context
+- Basics of formal logic
+- Logic expressed in Prolog
+- Embedding logic programming in Clojure using core.logic
+
+* Formal Logic
