@@ -1,9 +1,54 @@
 * Logic Programming
 
+                         [[./logic_1.png]]
+
 Logic Programming:
 - Introduction, motivations, context
 - Basics of formal logic
 - Logic expressed in Prolog
 - Embedding logic programming in Clojure using core.logic
 
+* Why Logic Programming?
+
+Lorem ipsum
+
+"The contrast between function and procedure is a reflection of the general
+distinction between describing properties of things and describing how to do
+things, or, as it is sometimes referred to, the distinction between declarative
+knowledge and imperative knowledge. In mathematics we are usually concerned
+with declarative (what is) descriptions, whereas in computer science we are
+usually concerned with imperative (how to) descriptions."
+- SICP §1.1.7
+
 * Formal Logic
+
+                         [[./logic_2.png]]
+
+Problem solving
+
+Knowledge representation: Logic programs as databases
+
+* Prolog
+
+Lorem ipsum
+
+* core.logic
+
+                         [[./logic_3.png]]
+
+Lorem ipsum
+
+* Resources
+
+- Prolog
+  - [[https://www.amazon.com/Art-Prolog-Second-Programming-Techniques/dp/0262193388][The Art of Prolog (2nd Ed.) (1986)]] (costs money)
+  - [[https://www.amazon.com/Clause-Effect-Programming-Working-Programmer/dp/3540629718][Clause and Effect (2013)]] (costs money)
+  - Many other books...
+
+- miniKanren:
+  - [[https://en.wikipedia.org/wiki/MiniKanren][Wikipedia Article]]
+  - [[http://minikanren.org/][Official Website]]
+
+- core.logic
+  - [[https://github.com/clojure/core.logic][GitHub page]]
+  - [[https://rawgit.com/dedeibel/clojure-core-logic-cheatsheets/master/out/cheatsheet-use-title-attribute-no-cdocs-summary.html][cheatsheet]]

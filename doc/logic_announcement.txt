@@ -1,0 +1,21 @@
+Logic Programming in Clojure
+
+Let's disable our emotion chips and be entirely logical for an evening.  In
+this presentation, we'll explore the foundations of the logic programming
+paradigm and demonstrate its expression in Clojure using David Nolen's
+core.logic, an implementation of the miniKanren eDSL.
+
+Logic programming is uniquely suited as an approach for several diverse classes
+of problems that may otherwise seem effectively intractable.  After this
+meetup, you'll be able to recognize those situations and confident enough to
+leverage the power of formal logic in your designs.  One can also never be too
+logical, and you can apply these notions to everyday life as well.
+
+As usual, we'll attempt to keep this talk of reasonable length to give plenty
+of time for attendees to exchange logical proofs and, if people insist, ad-hoc
+interaction.  Humans are welcome to attend, but all talking must be in an
+emotionless, robotic monotone.
+
+Edible biomatter and fluidic lubrication will be provided by Whiteboard
+Federal.  Activate a distress beacon via Bruce's communicator if there are any
+issues locating the venue or entering the facility.

@@ -10,7 +10,7 @@ Group on 2017-04-12 (maybe).  See the [[https://www.meetup.com/Cap-Clug/events/v
 
 * Usage
 
-The Prolog code is contained in a single file, logic.pro, located in the root
+The Prolog code is contained in a single file, logic.pl, located in the root
 project directory.
 
 The Clojure part of this application is only intended to be used from the REPL.
