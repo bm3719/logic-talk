@@ -10,8 +10,13 @@ Group on 2017-04-12 (maybe).  See the [[https://www.meetup.com/Cap-Clug/events/v
 
 * Usage
 
-The Prolog code is contained in a single file, logic.pl, located in the root
-project directory.
+The Prolog code is contained in a single file, =logic.pl=, located in the root
+project directory.  This is written and tested in SWI-Prolog.  You can interact
+with the code by entering your Prolog interpreter and running:
+
+#+BEGIN_SRC prolog
+consult("logic.pl").
+#+END_SRC
 
 The Clojure part of this application is only intended to be used from the REPL.
 To run the application and connect to the REPL:
@@ -21,7 +26,8 @@ lein repl :headless
 #+END_SRC
 
 There is also an presentation in org-mode (to be used with org-present) in the
-doc/ directory.
+=doc/= directory.  Open this file in Emacs and run ~M-x org-present~.  You'll, of
+course, need to have installed the org-present package.
 
 * License
 
