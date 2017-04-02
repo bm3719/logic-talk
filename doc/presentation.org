@@ -17,32 +17,37 @@ distinction between describing properties of things and describing how to do
 things, or, as it is sometimes referred to, the distinction between declarative
 knowledge and imperative knowledge. In mathematics we are usually concerned
 with declarative (what is) descriptions, whereas in computer science we are
-usually concerned with imperative (how to) descriptions."
-- SICP §1.1.7
+usually concerned with imperative (how to) descriptions." - SICP §1.1.7
 
 * Formal Logic
-
-                         [[./logic_2.png]]
 
 Problem solving
 
 Knowledge representation: Logic programs as databases
 
+* Logic Programming
+
+Often about search in the form of searching a solution space, often tree-based,
+for one or more valid solutions to a problem.
+
+Logic Engines
 * Prolog
 
 Lorem ipsum
 
 * core.logic
 
-                         [[./logic_3.png]]
+                         [[./logic_2.png]]
 
 Lorem ipsum
 
 * Resources
 
+                         [[./logic_3.png]]
+
 - Prolog
-  - [[https://www.amazon.com/Art-Prolog-Second-Programming-Techniques/dp/0262193388][The Art of Prolog (2nd Ed.) (1986)]] (costs money)
-  - [[https://www.amazon.com/Clause-Effect-Programming-Working-Programmer/dp/3540629718][Clause and Effect (2013)]] (costs money)
+  - [[https://www.amazon.com/Art-Prolog-Second-Programming-Techniques/dp/0262193388][The Art of Prolog (2nd Ed.) (1986)]]
+  - [[https://www.amazon.com/Clause-Effect-Programming-Working-Programmer/dp/3540629718][Clause and Effect (2013)]]
   - Many other books...
 
 - miniKanren:
@@ -51,4 +56,5 @@ Lorem ipsum
 
 - core.logic
   - [[https://github.com/clojure/core.logic][GitHub page]]
+  - [[https://www.amazon.com/Joy-Clojure-Michael-Fogus/dp/1617291412][The Joy of Clojure (2nd Ed.)]] (Chapter 16)
   - [[https://rawgit.com/dedeibel/clojure-core-logic-cheatsheets/master/out/cheatsheet-use-title-attribute-no-cdocs-summary.html][cheatsheet]]

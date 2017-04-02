@@ -3,10 +3,6 @@
 sunny.
 
 
-
-
-
-
 killed(me, slug).
 killed(me, warthog).
 killed(me, mole-rat).
@@ -25,13 +21,6 @@ murderer(Suspect) :- killed(Suspect, Victim), human(Victim).
 
 
 
-
-
-
-
-
-
-
 %% killed(me, gary).
 
 %% killed(me, cat).
@@ -44,6 +33,7 @@ murderer(Suspect) :- killed(Suspect, Victim), human(Victim).
 % What do we do here?
 
 
+
 %% factorial (+N:int, ?FacN:int)
 %
 % computes FacN as factorial of N.
@@ -52,7 +42,6 @@ murderer(Suspect) :- killed(Suspect, Victim), human(Victim).
 %
 % @param N input integer
 % @param FactN result of the computation
-
 factorial(0, 1).
 factorial(N, FacN) :- N > 0,
                       DecN is N - 1,
