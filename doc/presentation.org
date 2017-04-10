@@ -1,6 +1,5 @@
 * Logic Programming
-
-                    [[./logic_0.png]]
+                  [[./logic_0.jpg]]
 
 Logic Programming:
 - Introduction, motivations, context
@@ -26,8 +25,7 @@ Problem solving
 Knowledge representation: Logic programs as databases
 
 * Logic Programming
-
-                    [[./logic_1.png]]
+                  [[./logic_1.jpg]]
 
 Often about search in the form of searching a solution space, often tree-based,
 for one or more valid solutions to a problem.
@@ -35,12 +33,13 @@ for one or more valid solutions to a problem.
 Logic Engines
 
 * Prolog
+                  [[./logic_2.jpg]]
 
 Lorem ipsum
 
 * core.logic
+                  [[./logic_3.jpg]]
 
-                    [[./logic_2.png]]
 
 core.logic is a logic programming eDSL for Clojure.
 
@@ -51,8 +50,8 @@ core.logic is a logic programming eDSL for Clojure.
 
 
 * Resources
+                  [[./logic_4.jpg]]
 
-                    [[./logic_3.png]]
 
 - Prolog
   - [[https://www.amazon.com/Art-Prolog-Second-Programming-Techniques/dp/0262193388][The Art of Prolog (2nd Ed.) (1986)]]
