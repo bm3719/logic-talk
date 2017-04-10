@@ -1,6 +1,6 @@
 * Logic Programming
 
-                         [[./logic_1.png]]
+                    [[./logic_0.png]]
 
 Logic Programming:
 - Introduction, motivations, context
@@ -27,23 +27,32 @@ Knowledge representation: Logic programs as databases
 
 * Logic Programming
 
+                    [[./logic_1.png]]
+
 Often about search in the form of searching a solution space, often tree-based,
 for one or more valid solutions to a problem.
 
 Logic Engines
+
 * Prolog
 
 Lorem ipsum
 
 * core.logic
 
-                         [[./logic_2.png]]
+                    [[./logic_2.png]]
 
-Lorem ipsum
+core.logic is a logic programming eDSL for Clojure.
+
+  Based on miniKanren (and derivatives) by William Byrd, Dan Friedman, et al..
+
+  E.g., [[https://raw.githubusercontent.com/jasonhemann/microKanren/master/microKanren.scm][μKanren]].
+
+
 
 * Resources
 
-                         [[./logic_3.png]]
+                    [[./logic_3.png]]
 
 - Prolog
   - [[https://www.amazon.com/Art-Prolog-Second-Programming-Techniques/dp/0262193388][The Art of Prolog (2nd Ed.) (1986)]]
