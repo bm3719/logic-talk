@@ -1,15 +1,13 @@
 * Logic Programming
-                  [[./logic_0.jpg]]
+                   [[./logic_0.jpg]]
 
 Logic Programming:
 - Introduction, motivations, context
-- Basics of formal logic
+- Background
 - Logic expressed in Prolog
 - Embedding logic programming in Clojure using core.logic
 
 * Why Logic Programming?
-
-Lorem ipsum
 
 "The contrast between function and procedure is a reflection of the general
 distinction between describing properties of things and describing how to do
@@ -18,48 +16,94 @@ knowledge and imperative knowledge. In mathematics we are usually concerned
 with declarative (what is) descriptions, whereas in computer science we are
 usually concerned with imperative (how to) descriptions." - SICP §1.1.7
 
+What's the logic programming approach?
+
 * Formal Logic
 
-Problem solving
+Logic involves: Problem solving, symbols, arguments, etc.
 
-Knowledge representation: Logic programs as databases
+Horn clauses: A disjunction with at most one positive literal.  Horn clauses
+largely compose logic programs in Prolog and other languages. †
+
+    ¬X₁ ∨ ¬X₂ ∨ ... ∨ ¬Xₙ ∨ Y
+
+    (X₁ ∧ X₂ ∧ ... ∧ Xₙ) → Y
+
+Unification: Given some number of symbolic expressions, find a solution using
+substitution, should one exist.  The solution is a "substitution set".  ‡
+
+#+BEGIN_SRC prolog
+(X, 7) = (4, 7).
+#+END_SRC
+
+† https://en.wikipedia.org/wiki/Horn_clause
+‡ https://en.wikipedia.org/wiki/Unification_(computer_science)
 
 * Logic Programming
-                  [[./logic_1.jpg]]
+                   [[./logic_1.jpg]]
+Logic Programming: A programming paradigm.
 
 Often about search in the form of searching a solution space, often tree-based,
 for one or more valid solutions to a problem.
 
 Logic Engines
 
-* Prolog
-                  [[./logic_2.jpg]]
+Knowledge representation: Logic programs as databases.
 
-Lorem ipsum
+* Prolog
+
+- Facts (simple and with arguments).
+#+BEGIN_SRC prolog
+today.
+awesome(clojure).
+#+END_SRC
+- Variables.
+#+BEGIN_SRC prolog
+eats(clowns, children).
+#+END_SRC
+- Unification.
+- Rules.
+- Queries.
+
+* Actually using Prolog
+                   [[./logic_2.jpg]]
+
+Prolog is usable for doing real work, but...
+- The language
+- Integration
+- Alternatives
 
 * core.logic
-                  [[./logic_3.jpg]]
+                   [[./logic_3.jpg]]
 
 
 core.logic is a logic programming eDSL for Clojure.
 
-  Based on miniKanren (and derivatives) by William Byrd, Dan Friedman, et al..
+- Based on miniKanren (and derivatives) by William Byrd, Dan Friedman, et al..
+- E.g., [[https://raw.githubusercontent.com/jasonhemann/microKanren/master/microKanren.scm][μKanren]].
+- Similar to Prolog in some ways: Multiple result values, substitution, goals,
+  terms, queries.
+- Unbound variables are noted with _.0, _.1, etc.
 
-  E.g., [[https://raw.githubusercontent.com/jasonhemann/microKanren/master/microKanren.scm][μKanren]].
+* Observations and extra info
 
+Considerations:
+- Use cases for logic programming
+- Performance?
+- core.logic documentation is not that great.
 
+Extra info:
+- core.logic.pldb: Persistent Logic Database.
+- The Reasoned Schemer: One suggested path to learning core.logic.
 
 * Resources
-                  [[./logic_4.jpg]]
-
-
+                   [[./logic_4.jpg]]
 - Prolog
   - [[https://www.amazon.com/Art-Prolog-Second-Programming-Techniques/dp/0262193388][The Art of Prolog (2nd Ed.) (1986)]]
   - [[https://www.amazon.com/Clause-Effect-Programming-Working-Programmer/dp/3540629718][Clause and Effect (2013)]]
-  - Many other books...
+  - Many, many other books...
 
 - miniKanren:
-  - [[https://en.wikipedia.org/wiki/MiniKanren][Wikipedia Article]]
   - [[http://minikanren.org/][Official Website]]
 
 - core.logic

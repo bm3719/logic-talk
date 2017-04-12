@@ -2,6 +2,8 @@
 
 sunny.
 
+clown(X) := eats_children(X).
+
 
 killed(me, slug).
 killed(me, warthog).
@@ -19,9 +21,9 @@ cute(cat).
 
 murderer(Suspect) :- killed(Suspect, Victim), human(Victim).
 
-
-
 %% killed(me, gary).
+
+
 
 %% killed(me, cat).
 
