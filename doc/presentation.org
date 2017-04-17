@@ -41,6 +41,7 @@ substitution, should one exist.  The solution is a "substitution set".  ‡
 
 * Logic Programming
                    [[./logic_1.jpg]]
+
 Logic Programming: A programming paradigm.
 
 Often about search in the form of searching a solution space, often tree-based,
