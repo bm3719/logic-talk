@@ -5,8 +5,8 @@ introductory formal logic concepts in Clojure.  It consists of a
 presentation and some code, both in Prolog and in Clojure.  In the latter,
 core.logic is used.
 
-These concepts will be presented at the National Capital Area Clojure Users
-Group on 2017-04-12 (maybe).  See the [[https://www.meetup.com/Cap-Clug/events/vvnjlmywgbqb/][event page]] for details.
+These concepts were presented at the National Capital Area Clojure Users Group
+on 2017-04-12.  See the [[https://www.meetup.com/Cap-Clug/events/vvnjlmywgbqb/][event page]] for details.
 
 * Usage
 
